@@ -46,6 +46,9 @@ int main() {
     printf("Por fim, os pontos turisticos: \n");
     scanf("%d", &pontosTuristicos);
 
+    float densidadepop = areaKM / populacao;
+    float pibp = pib / populacao;
+
     printf("\n");
 
       
@@ -74,6 +77,9 @@ int main() {
 
     printf("Por fim, os pontos turisticos: \n");
     scanf("%d", &pontosTuristicos1);
+
+    float densidadepop1 = areaKM1 / populacao1;
+    float pibp1 = pib1 / populacao1;
 
     printf("\n");
 
