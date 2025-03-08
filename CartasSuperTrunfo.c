@@ -48,26 +48,11 @@ int main() {
 
     printf("\n");
 
-    /*int codnumero = 01;
-    char codigoJuntos[30];
-    itoa(codnumero, codigoJuntos, 10);
-    printf("codigo: %s\n", codigoJuntos);*/
-
-    
+      
 
     //////////////////////////////////////////////////////////////////////////////
 
-   /*printf("Seja bem vindo ao super trunfo cidades!\nPreencha corretamente os dados de cada cidade,\nmas primeiramente me diga seu nome:\n");
-
-        scanf("%s", nomeUsuario);
-
-        
-        printf("\n"); /////////////////////////////////////////////////
-
-        printf("Muito prazer %s, vamos la:\n", nomeUsuario);
-
-        printf("\n"); /////////////////////////////////////////////////*/
-
+   
         printf("Ok %s, Agora vamos para a carta 02\n", nomeUsuario);
 
         
@@ -92,10 +77,7 @@ int main() {
 
     printf("\n");
 
-    /*int codnumero = 01;
-    char codigoJuntos[30];
-    itoa(codnumero, codigoJuntos, 10);
-    printf("codigo: %s\n", codigoJuntos);*/
+    
 
     printf("beleza %s, acabamos de criar suas cartas, da uma olhadinha:\n", nomeUsuario);
 
