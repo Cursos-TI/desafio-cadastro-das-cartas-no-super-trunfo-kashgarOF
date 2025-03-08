@@ -9,7 +9,7 @@
     float pib, pib1;
     int pontosTuristicos, pontosTuristicos1;
 
-
+//variaveis globais para cada carta, chamadas em cada scanf e printf para o desenvolvimento das cartas.
 
 int main() {
     
