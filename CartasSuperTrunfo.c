@@ -103,7 +103,7 @@ int main() {
     printf("Pib: %.5f (%d) \nQuantidade de pontos turisticos: %d (%d)\n", pib, pib > pib1, pontosTuristicos, pontosTuristicos > pontosTuristicos1);
     printf("Densidade Populacional: %.5f (%d)\n", densidadepop, densidadepop > densidadepop1);
     printf("pib per capita: %.5f (%d) \n", pibp, pibp > pibp1 );
-    printf("Super poder: %.5f (%d)\n", superPoder1, superPoder > superPoder1);
+    printf("Super poder: %.5f (%d)\n", superPoder, superPoder > superPoder1);
 
     printf("\n");
 
@@ -120,6 +120,12 @@ int main() {
     printf("Super poder: %.5f (%d) \n", superPoder1, superPoder1 > superPoder);
 
     printf("\n");
+
+    if(superPoder > superPoder1) {
+        printf("Carta 01 venceu!\n");
+    } else {
+        printf("Carta 02 venceu!\n");
+    };
 
 
 return 0;
