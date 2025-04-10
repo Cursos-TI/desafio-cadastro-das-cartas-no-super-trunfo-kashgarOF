@@ -56,6 +56,7 @@ int main() {
     float densidadepop = populacao / areaKM;
     float pibp = pib / populacao;
     float superPoder = (areaKM / populacao ) + pib + pibp + populacao + areaKM + pontosTuristicos;
+    int escolha;
 
     printf("\n");
 
@@ -87,6 +88,7 @@ int main() {
     float densidadepop1 = populacao1 / areaKM1;
     float pibp1 = pib1 / populacao1;
     float superPoder1 = (areaKM1 / populacao1 ) + pib1 + pibp1 + populacao1 + areaKM1 + pontosTuristicos1;
+    int escolha1;
 
 
     printf("\n");
@@ -121,11 +123,83 @@ int main() {
 
     printf("\n");
 
-    if(superPoder > superPoder1) {
-        printf("Carta 01 venceu!\n");
-    } else {
-        printf("Carta 02 venceu!\n");
+    /////////////////////////////////MENU DE BATALHA/////////////////////////////////////////////
+
+
+    printf("***hora de batalhar***\n");
+
+    printf("\n");
+
+    printf("carta 01");
+    printf("Escolha e compare entre:\n");
+    printf("1. Densidade populacional\n");
+    printf("2. Pib percapta.\n");
+    printf("3. Super poder.\n");
+    printf("Escolha a opção que você quer de 1 a 3:\n");
+    scanf("%d", &escolha);
+
+
+    switch (escolha)
+    {
+    case 1:
+            printf("Você escolheu a desindade populacional: %d\n", &densidadepop);
+        break;
+    case 2:
+            printf("Você escolheu o pib percapta: %d\n", &pibp);
+        break;
+    case 3:
+            printf("Você escolheu o super poder: %d\n", &superPoder);
+        break;
+    
+    default:
+            printf("Essa opção não é valida, tente novamente!");
+        break;
     };
+
+
+
+    printf("\n");
+
+
+
+    printf("carta 02");
+    printf("Escolha e compare entre:\n");
+    printf("1. Densidade populacional\n");
+    printf("2. Pib percapta.\n");
+    printf("3. Super poder.\n");
+    printf("Escolha a opção que você quer de 1 a 3:\n");
+    scanf("%d", &escolha1);
+
+
+    switch (escolha1)
+    {
+    case 1:
+            printf("Você escolheu a desindade populacional: %d\n", &densidadepop1);
+        break;
+    case 2:
+            printf("Você escolheu o pib percapta: %d\n", &pibp1);
+        break;
+    case 3:
+            printf("Você escolheu o super poder: %d\n", &superPoder1);
+        break;
+    
+    default:
+            printf("Essa opção não é valida, tente novamente!");
+        break;
+    }
+
+
+
+if (escolha == escolha1) 
+{
+    printf("EMPATE!!!");
+} else if((escolha == 1) > (escolha1 == 1) ||  (escolha == 2) > (escolha1 == 2) ||  (escolha == 3) > (escolha1 == 3)) {
+    printf("Carta 01 VENCEU ESSA RODADA!!!");
+} else 
+{
+    printf("Carta 02 VENCEU ESSA ROADADA!!1");
+};
+
 
 
 return 0;
