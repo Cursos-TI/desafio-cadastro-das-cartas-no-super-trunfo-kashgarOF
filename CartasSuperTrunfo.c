@@ -130,7 +130,7 @@ int main() {
 
     printf("\n");
 
-    printf("carta 01");
+    printf("carta 01\n");
     printf("Escolha e compare entre:\n");
     printf("1. Densidade populacional\n");
     printf("2. Pib percapta.\n");
@@ -142,17 +142,17 @@ int main() {
     switch (escolha)
     {
     case 1:
-            printf("Você escolheu a desindade populacional: %d\n", &densidadepop);
+            printf("Voce escolheu a desindade populacional: %d\n", &densidadepop);
         break;
     case 2:
-            printf("Você escolheu o pib percapta: %d\n", &pibp);
+            printf("Voce escolheu o pib percapta: %d\n", &pibp);
         break;
     case 3:
-            printf("Você escolheu o super poder: %d\n", &superPoder);
+            printf("Voce escolheu o super poder: %d\n", &superPoder);
         break;
     
     default:
-            printf("Essa opção não é valida, tente novamente!");
+            printf("Essa opcao nao e valida, tente novamente!");
         break;
     };
 
@@ -162,7 +162,7 @@ int main() {
 
 
 
-    printf("carta 02");
+    printf("carta 02\n");
     printf("Escolha e compare entre:\n");
     printf("1. Densidade populacional\n");
     printf("2. Pib percapta.\n");
@@ -174,20 +174,21 @@ int main() {
     switch (escolha1)
     {
     case 1:
-            printf("Você escolheu a desindade populacional: %d\n", &densidadepop1);
+            printf("Voce escolheu a desindade populacional: %d\n", &densidadepop1);
         break;
     case 2:
-            printf("Você escolheu o pib percapta: %d\n", &pibp1);
+            printf("Voce escolheu o pib percapta: %d\n", &pibp1);
         break;
     case 3:
-            printf("Você escolheu o super poder: %d\n", &superPoder1);
+            printf("Voce escolheu o super poder: %d\n", &superPoder1);
         break;
     
     default:
-            printf("Essa opção não é valida, tente novamente!");
+            printf("Essa opcao nao e valida, tente novamente!");
         break;
     }
 
+    printf("\n");
 
 
 if (escolha == escolha1) 
@@ -198,7 +199,7 @@ if (escolha == escolha1)
 } else 
 {
     printf("Carta 02 VENCEU ESSA ROADADA!!1");
-};
+}
 
 
 
